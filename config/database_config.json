@@ -1,0 +1,28 @@
+{
+  "dev": {
+    "username": "root",
+    "password": "ali123",
+    "database": "dev_db",
+    "host": "localhost",
+    "dialect": "mysql",
+    "db_port": 3306
+  },
+  "qa": {
+    "username": "root",
+    "password": "ali123",
+    "database": "qa_db",
+    "host": "localhost",
+    "dialect": "mysql",
+    "db_port": 3306
+
+  },
+  "prod": {
+    "username": "root",
+    "password": "ali123",
+    "database": "prod_db",
+    "host": "localhost",
+    "dialect": "mysql",
+    "db_port": 3306
+
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "harri_task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=dev nodemon index.js",
+    "prod": "cross-env NODE_ENV=prod && node index.js",
+    "qa": "cross-env NODE_ENV=qa node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config-json": "^1.0.0",
+    "config.json": "0.0.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "helmet": "^5.0.2",
+    "http-status-codes": "^2.2.0",
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "module": "^1.2.5",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.3.3",
+    "path": "^0.12.7",
+    "properties-reader": "^2.2.0",
+    "sequelize": "^6.15.1",
+    "umzug": "^3.0.0",
+    "winston": "^3.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
