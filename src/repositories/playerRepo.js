@@ -16,11 +16,7 @@ class StadiumsRepo {
     getAvailableStadium(date){
         console.log(formatDate(date))
         const date1 = formatDate(date)
-        let sql = `SELECT * from stadium_time_slots AS STS 
-            INNER join stadiums as S on STS.stadium_id = S.id 
-            INNER join users as U on U.id = S.owner_relation_id  
-            INNER JOIN locations AS L ON s.location_id = L.id
-            where STS.start_date <= ? and STS.end_date > ?`;
+        let sql = `SELECT * from players `;
 
         return dbConnection.query(sql,
             {
